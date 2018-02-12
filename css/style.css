@@ -65,23 +65,26 @@ footer{
 
 /*Responsive*/
 
-@media only screen and (max-width: 400px) {
-	
+@media only screen and (max-width: 576px) {
+	.med-section{
+		display: none;
+	}
 
 	
 }
 
-@media (min-width: 401px){
+@media (min-width: 576px){
 	.min-section{
 		display: none;
 	}
 	.min-container{
 		display: none;
 	}
+	
 }
 
 
-@media (min-width: 401px) and (max-width: 600px){
+@media (min-width: 576px) and (max-width: 767.98px){
 
 	body{
 	background-color: yellow !important;
@@ -92,7 +95,7 @@ footer{
 	
 }
 
-@media (min-width: 601px) {
+@media (min-width: 768px) {
 	body{
 	background-color: red !important;
 	}
@@ -142,6 +145,10 @@ footer{
 
 
 }
+
+
+
+
 
 
 
